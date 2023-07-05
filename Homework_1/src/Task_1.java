@@ -4,10 +4,11 @@ import java.util.Arrays;
 public class Task_1 {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4};
-        method_1(5, 0);
-        method_2(arr);
-        Integer[] arr2 = {1,2,3,4};
-        method_3(arr2, "a");
+//        method_1(5, 0);
+//        method_2(arr);
+//        Integer[] arr2 = {1,2,3,4};
+//        method_3(arr2, "a");
+        method_4("b");
     }
 
     public static int method_1(int a, int b) {
@@ -25,5 +26,8 @@ public class Task_1 {
         list.add(word);
 
         return (Integer[]) list.toArray(new Integer[0]);
+    }
+    public static int method_4 (String a) {
+        return Integer.parseInt(a);
     }
 }
