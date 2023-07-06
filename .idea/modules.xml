@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Exceptions_homeworks.iml" filepath="$PROJECT_DIR$/Exceptions_homeworks.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework_1/Homework_1.iml" filepath="$PROJECT_DIR$/Homework_1/Homework_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework_2/Homework_2.iml" filepath="$PROJECT_DIR$/Homework_2/Homework_2.iml" />
     </modules>
   </component>
 </project>
