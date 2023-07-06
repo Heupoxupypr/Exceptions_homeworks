@@ -12,12 +12,13 @@ public class Task_1 {
     static float inputNumber(){
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter fractional number:");
-//        input.nextLine();
+
         while (!input.hasNextFloat()){
             System.out.println("This is not number! Please repeat!");
             System.out.println("Please enter fractional number:");
             input.nextLine();
         }
+        input.close();
         return input.nextFloat();
     }
 }
